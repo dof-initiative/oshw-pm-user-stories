@@ -1,0 +1,630 @@
+<h1 id="0-workshop"><a aria-hidden="true" class="anchor-heading icon-link" href="#0-workshop"></a>0. Workshop</h1>
+<h2 id="1-audience-survey"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-audience-survey"></a><a href="/oshw-pm-user-stories/notes/py9pnyni5n8iwwbgqmfsad1">1. Audience Survey</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">1. Audience Survey</span></div>
+<a href="/oshw-pm-user-stories/notes/py9pnyni5n8iwwbgqmfsad1" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="questions"><a aria-hidden="true" class="anchor-heading icon-link" href="#questions"></a>Questions</h2>
+<p><a href="/oshw-pm-user-stories/notes/vatakntmpixw8trhk0j7d18">Q1. How many people here have released a OSHW project? (x1/y)</a></p>
+<p><a href="/oshw-pm-user-stories/notes/gw1yukq3xe1gbwxk6hvoz36">Q2. How many of you have certified any of those projects? (x2/x1)</a></p>
+<p><a href="/oshw-pm-user-stories/notes/hmsq2kbj4iv67nkjubl4ll1">Q3. Have any of you certified multiple projects? (x3/x2)</a></p>
+<p><a href="/oshw-pm-user-stories/notes/ofgqlh3kps5au9p5ltkszo5">Q4. How many of you have re-certified updated releases of certified projects? (x4/x2)</a></p>
+<p><a href="/oshw-pm-user-stories/notes/yasz8z5tj5sx7msifvx0g3v">Q5. Has anyone tried modifying or building on top of existing projects? (x5/y)</a></p>
+<h2 id="summary"><a aria-hidden="true" class="anchor-heading icon-link" href="#summary"></a>Summary</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Q1. How many people here have released a OSHW project? (x1/y)</span></div>
+<a href="/oshw-pm-user-stories/notes/vatakntmpixw8trhk0j7d18" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="example-projects"><a aria-hidden="true" class="anchor-heading icon-link" href="#example-projects"></a>example projects</h2>
+<ul>
+<li>led prototype board light-on wsd 20 clone stm32 - up and running</li>
+<li>halloween vending machine
+build earrings for rabbi</li>
+<li>rc2014</li>
+</ul>
+<h2 id="notes"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a>notes</h2>
+<ul>
+<li>diffs are useless unless you pay for a service</li>
+<li>openscad - jump to microelectronics</li>
+<li>challenge getting into digital space</li>
+<li>"structural diffing" - see diff tastic</li>
+<li>need for name-spacing; unambiguous means of referencing component instances
+<ul>
+<li>need a means of mapping dof schema to other tools (e.g., KiCad, FreeCAD)
+<ul>
+<li>this enables referencing data (s.a., part description) in DOF to enhance understanding data in other tools (e.g., what is the purpose of capacitor C2 in board layout)</li>
+<li>this enables deeper referencing within instructions (e.g., where to place capacitor on a board based on board layout within assembly instructions)</li>
+</ul>
+</li>
+<li>any instance of a component in DOF needs to have a (fully qualified?) singular definitive name; this should be one-to-one and onto
+<ul>
+<li>investigate connection between structural diffing and mapping to other tools in user stories</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>need context as to why a design was changed (e.g., a capacitor was swapped out or removed), or any design decision
+<ul>
+<li>this is a kind of annotation capability that should
+<ul>
+<li>annotate any element in a project (e.g., components, aspects of components, steps in instructions, any data structure)</li>
+<li>include ability to leave commentary</li>
+<li>be able to point to one or more element(s) that it is annotating</li>
+<li>be able to point to one or more "source" element(s), s.a.,
+<ul>
+<li>a Bib reference</li>
+<li>another annotation</li>
+<li>an "analysis artifact"</li>
+</ul>
+</li>
+<li>be supported in m30ml</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Q2. How many of you have certified any of those projects? (x2/x1)</span></div>
+<a href="/oshw-pm-user-stories/notes/gw1yukq3xe1gbwxk6hvoz36" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-1"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-1"></a>notes</h2>
+<ul>
+<li>newer process makes more sense</li>
+<li>fairly seamless</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Q3. Have any of you certified multiple projects? (x3/x2)</span></div>
+<a href="/oshw-pm-user-stories/notes/hmsq2kbj4iv67nkjubl4ll1" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-2"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-2"></a>notes</h2>
+<ul>
+<li>5 certified</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Q4. How many of you have re-certified updated releases of certified projects? (x4/x2)</span></div>
+<a href="/oshw-pm-user-stories/notes/ofgqlh3kps5au9p5ltkszo5" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-3"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-3"></a>notes</h2>
+<ul>
+<li>one and done for most</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Q5. Has anyone tried modifying or building on top of existing projects? (x5/y)</span></div>
+<a href="/oshw-pm-user-stories/notes/yasz8z5tj5sx7msifvx0g3v" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-4"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-4"></a>notes</h2>
+<ul>
+<li>(example projects from audience)</li>
+<li>(specific experiences from audience, "what project(s) did you make/modify/reuse?")</li>
+</ul>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+<h2 id="2-there-must-be-a-better-way"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-there-must-be-a-better-way"></a><a href="/oshw-pm-user-stories/notes/x9z2rffos85uyh5a7c1xmh2">2. There Must Be a Better Way</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">2. There Must Be a Better Way</span></div>
+<a href="/oshw-pm-user-stories/notes/x9z2rffos85uyh5a7c1xmh2" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="1-core-capabilities"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-core-capabilities"></a><a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">1. Core Capabilities</span></div>
+<a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>These are the core needs of the OSHW community when sharing, communicating, and collaborating on OSHW projects</p>
+<h2 id="1-oshw-definition"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-oshw-definition"></a><a href="/oshw-pm-user-stories/notes/wnfhk1lyrz6r56si1p87dy3">1. OSHW Definition</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">1. OSHW Definition</span></div>
+<a href="/oshw-pm-user-stories/notes/wnfhk1lyrz6r56si1p87dy3" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>OSHW projects should be developed and shared in accordance to the OSHW Definition.<sup><a href="#oshwdef">1</a></sup></p>
+<p><a name="oshwdef">1</a>: <a href="https://oshwa.org/resources/open-source-hardware-definition/">https://oshwa.org/resources/open-source-hardware-definition/</a></p>
+</div></div><p></p><p></p>
+<h2 id="2-oshw-certification"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-oshw-certification"></a><a href="/oshw-pm-user-stories/notes/unj23tn51l1huf1t5dl1akx">2. OSHW Certification</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">2. OSHW Certification</span></div>
+<a href="/oshw-pm-user-stories/notes/unj23tn51l1huf1t5dl1akx" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>OSHW projects should be developed and shared in accordance to the OSHW Certification process.<sup><a href="#oshwcert">1</a></sup></p>
+<p><a name="oshwcert">1</a>: <a href="https://certification.oshwa.org/process.html">https://certification.oshwa.org/process.html</a></p>
+</div></div><p></p><p></p>
+<h2 id="3-oshw-should-be-like-oss"><a aria-hidden="true" class="anchor-heading icon-link" href="#3-oshw-should-be-like-oss"></a><a href="/oshw-pm-user-stories/notes/m82kets1w41kkt4tn1xkkne">3. OSHW Should Be like OSS</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">3. OSHW Should Be like OSS</span></div>
+<a href="/oshw-pm-user-stories/notes/m82kets1w41kkt4tn1xkkne" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>OSHW should be like Open Source Software (OSS) to the greatest degree possible (e.g. sharing, development, licensing).</p>
+</div></div><p></p><p></p>
+<h2 id="4-oshw-development-should-leverage-modern-software-development-techniques"><a aria-hidden="true" class="anchor-heading icon-link" href="#4-oshw-development-should-leverage-modern-software-development-techniques"></a><a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">4. OSHW Development Should Leverage Modern Software Development Techniques</span></div>
+<a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>OSHW development should leverage modern software development techniques to improve the OSHW developer experience.</p>
+<h2 id="examples"><a aria-hidden="true" class="anchor-heading icon-link" href="#examples"></a>examples</h2>
+<ul>
+<li>package management</li>
+<li>DevOps (e.g., DevSecOps, DocOps)</li>
+<li>mono-repos</li>
+<li>design patterns (e.g., model-view-controller)</li>
+<li>semantic versioning</li>
+</ul>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+<h2 id="2-pillars"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-pillars"></a><a href="/oshw-pm-user-stories/notes/6k53zfadywhww1r26lbeykt">2. Pillars</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">2. Pillars</span></div>
+<a href="/oshw-pm-user-stories/notes/6k53zfadywhww1r26lbeykt" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Classes of data that need to be captured <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a></p>
+<h2 id="1-bom-data"><a aria-hidden="true" class="anchor-heading icon-link" href="#1-bom-data"></a><a href="/oshw-pm-user-stories/notes/6sd4i7px8r6jw9dh71v3558">1. BOM Data</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">1. BOM Data</span></div>
+<a href="/oshw-pm-user-stories/notes/6sd4i7px8r6jw9dh71v3558" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Bill of Materials (BOM) data: list of components and counts covering all parts and tools which must be procured to build the project</p>
+</div></div><p></p><p></p>
+<h2 id="2-instructions"><a aria-hidden="true" class="anchor-heading icon-link" href="#2-instructions"></a><a href="/oshw-pm-user-stories/notes/82gydxsntjujxngqxqi6oj4">2. Instructions</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">2. Instructions</span></div>
+<a href="/oshw-pm-user-stories/notes/82gydxsntjujxngqxqi6oj4" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><ul>
+<li>Assembly Instructions: complete list of instructions to build the project from its procured parts</li>
+<li>Operating Instructions: complete list of instructions to use the project safely and effectively</li>
+</ul>
+</div></div><p></p><p></p>
+<h2 id="3-supporting-data"><a aria-hidden="true" class="anchor-heading icon-link" href="#3-supporting-data"></a><a href="/oshw-pm-user-stories/notes/coywdnas48vrbabx52jz7b3">3. Supporting Data</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">3. Supporting Data</span></div>
+<a href="/oshw-pm-user-stories/notes/coywdnas48vrbabx52jz7b3" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>e.g. design files,</p>
+<ul>
+<li>CAD models (e.g., Mechanical CAD files, PCB Gerbers files)</li>
+<li>Specifications (e.g., operating temperature range)</li>
+<li>Interface definitions (e.g., board pinout)</li>
+<li>Schematics (e.g., Circuit boards)</li>
+</ul>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+<h2 id="3-developing-user-stories"><a aria-hidden="true" class="anchor-heading icon-link" href="#3-developing-user-stories"></a><a href="/oshw-pm-user-stories/notes/8655o7b563qlvdmr8bh7reg">3. Developing User Stories</a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">3. Developing User Stories</span></div>
+<a href="/oshw-pm-user-stories/notes/8655o7b563qlvdmr8bh7reg" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>See also <a href="/oshw-pm-user-stories/notes/vnicpusapaldjc73aqtivy0">User Story</a> template.</p>
+<h2 id="user-stories"><a aria-hidden="true" class="anchor-heading icon-link" href="#user-stories"></a>User Stories</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Stories List</span></div>
+<a href="/oshw-pm-user-stories/notes/dvx35bxeck5zhnbvh5o4xq3" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Build an OSHW Project</span></div>
+<a href="/oshw-pm-user-stories/notes/oc31cidp5sb697ncgcwtzrx" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/0ip40ulgkzaq74x6gu4o1lv">Build an OSHW Project</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/idtrtdfnouzj2xnmpxf8k7a">Reproduce the OSHW Project</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/wnfhk1lyrz6r56si1p87dy3">1. OSHW Definition</a></p>
+<h2 id="notes-5"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-5"></a>notes</h2>
+<ul>
+<li>build using alternative components for (end-of-life) availability</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Build an OSHW Project with Alternative Components</span></div>
+<a href="/oshw-pm-user-stories/notes/8l5svcc7817y3nct1ky39c3" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/0gcz7iqjpbc2xnuy2j6l2tw">Build an OSHW Project with Alternative Components</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/wspi0yoorg1gk2r92jagk2o">Address Issues with Component Availability</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/wnfhk1lyrz6r56si1p87dy3">1. OSHW Definition</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Ensure Unique Project Element Names</span></div>
+<a href="/oshw-pm-user-stories/notes/7ctuobfwqys97iap4qkjwqf" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/4vvnlfkzaziuxaixn3hzqz3">Ensure Unique Project Element Names</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/1lfogwl3hcm1wstot11tql5">Unambiguously  Identify Every Instance of a Component in a Project</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/wnfhk1lyrz6r56si1p87dy3">1. OSHW Definition</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Organize Projects</span></div>
+<a href="/oshw-pm-user-stories/notes/gcx7j3slce2kb38rqjy05xs" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/1kvgwkmiz5a5io62r6ledhy">Organize OSHW Project</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/hjyjk8901dv9vd4asha9pha">Conform to DRY Principle</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+<h2 id="notes-6"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-6"></a>notes</h2>
+<ul>
+<li>need for bridging knowledge gap between industry standard and open-source practices; no mentoring programs / methodology
+<ul>
+<li>while the DOF team agrees this is a challenge within the OSHW community, it is outside the scope of DOF (packaging a OSHW project to be shareable/modifiable/reproducible)</li>
+</ul>
+</li>
+<li>lintable data structure
+<ul>
+<li>interpret "lintable" to mean the content in the model is verifiable (no missing fields, orphan elements, etc.)</li>
+<li>LinkML "validate" capability implements these kinds of tests</li>
+<li>a.k.a., expose ability to validate content</li>
+</ul>
+</li>
+</ul>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Verify Project Data</span></div>
+<a href="/oshw-pm-user-stories/notes/es09vdqiihq9d8qotfulcsu" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/t2f4ae0ngobwioe7il1usqx">Verify Project Data</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/y5b6vak34r72tdvza8c10t5">Discover Project Errors Early</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Decompose Project</span></div>
+<a href="/oshw-pm-user-stories/notes/bdlqteih3cytl4ahfyl48og" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/aedk9sv80dvcrjnqyhz1owp">Decompose OSHW Project into Subprojects</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/khfxtqov28cwoovn3gpqzge">Identify Reusable Elements of a Project</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Reuse Elements of External Projects</span></div>
+<a href="/oshw-pm-user-stories/notes/gsrjh2z5wb4nysbflzwn0ts" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/lrr1qfd6wcco8q8e3oue4km">Reuse Elements of External OSHW Projects</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/di2bw8vuxhe07whffww3q9b">Build upon Previous Engineering Effort</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Reuse Elements of This Project</span></div>
+<a href="/oshw-pm-user-stories/notes/75ssft5a3d4zge2al7kydic" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/4syyoeef0x2dl42o6cxwfig">Reuse Elements of This OSHW Project</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/a2r6p3tcgas7kxeh84alona">Define an Element of a Project Only Once</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Fork an OSHW Project</span></div>
+<a href="/oshw-pm-user-stories/notes/9fgrfzpuolrfuzovbk18w25" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/6guks59bqne12hcb5yga8op">Fork an OSHW Project</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/d23jvu0gxgygvb3jqk973ih">Customize the Forked OSHW Project</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/m82kets1w41kkt4tn1xkkne">3. OSHW Should Be like OSS</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Automate Certification</span></div>
+<a href="/oshw-pm-user-stories/notes/htrh9qkz97dr05c8lq6ioi7" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/z3esa6d0s7y1ksnl2pr0uzv">Automate Certification</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/0358acrsau9so23yx3tcxh5">Easily Certify Every Release</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/unj23tn51l1huf1t5dl1akx">2. OSHW Certification</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Diff Project</span></div>
+<a href="/oshw-pm-user-stories/notes/xh3naojx4cy08p3n4updae0" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/b6npio4y1rfh31s2k7fenjw">Diff a Project between Commits</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/00d12puqu4q7099j96r6rwu">Review Changes between Commits</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/m82kets1w41kkt4tn1xkkne">3. OSHW Should Be like OSS</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Structural Diff Project</span></div>
+<a href="/oshw-pm-user-stories/notes/n56oaa1fjhwpqhq3ubbqzh0" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/qw7htjeh8mah52copd8kidl">Structural Diff a Project between Commits</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/nt817b4645z06n0do35n8c9">Provide Context for Reviewing Changes between Commits</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/mpi2r94umzmv4nh73f5vrrj">4. OSHW Development Should Leverage Modern Software Development Techniques</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Annotate an OSHW Project</span></div>
+<a href="/oshw-pm-user-stories/notes/0x5d7zm8qrx6l3f40n6kpmo" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/lc4n0zp1zzhzk71ifgqbae9">Annotate an OSHW Project</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/4tljln5wbz7d3afinj5uli0">Provide Context or Explanation about Model Content</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Comment on Elements</span></div>
+<a href="/oshw-pm-user-stories/notes/jqbs9y2bueo3kb3dwq1khrf" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/kkw2xrs302rhx3awjpz9bbb">Comment on Elements</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/y65vf2pa8qfenz9w22ylf3t">Explain or Discuss Elements</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Attach a Citation</span></div>
+<a href="/oshw-pm-user-stories/notes/scbv6kkbdvqn4jrqc40rldc" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/59hlugx3pxnfrzeys8sjcto">Attach a Citation to Elements</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/lfrzosvbb1h6l1rhz3t7axj">Attribute Credit to External Resources</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">User Create Agile Decision Record</span></div>
+<a href="/oshw-pm-user-stories/notes/141metfuhmclqawqxqrpgt1" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35">OSHW User</a>,
+I want to <a href="/oshw-pm-user-stories/notes/ir6j8wffe1y46an46s9nb5p">Create Agile Decision Record about Elements</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/6xub75t20oszokbabgstx4l">Capture the Reasoning behind a Decision</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Associate a Figure with Elements</span></div>
+<a href="/oshw-pm-user-stories/notes/nq4itotmatnypvdydynku77" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/ttz8ygvtvthou6jodc4e1xz">Associate a Figure with Elements</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/tiqiybzabx0ciqfs7l5vmap">Describe the Element Visually</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Developer Associate an Asset with Elements</span></div>
+<a href="/oshw-pm-user-stories/notes/d55bzqymummgghl4a981pks" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>As a <a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av">OSHW Developer</a>,
+I want to <a href="/oshw-pm-user-stories/notes/nnionh80b19cqaejdcfdp22">Associate an Asset with Elements</a>,
+so that I can <a href="/oshw-pm-user-stories/notes/b17e64llybut5t4loncuwr9">Use Supporting Material</a></p>
+<p>related to <a href="/oshw-pm-user-stories/notes/gxt00gigj1vgfc9gayv9q1o">1. Core Capabilities</a>: <a href="/oshw-pm-user-stories/notes/92tw5jajjs2i1njapbn6sr2">0. Unidentified</a></p>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+<h2 id="users"><a aria-hidden="true" class="anchor-heading icon-link" href="#users"></a>Users</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Users List</span></div>
+<a href="/oshw-pm-user-stories/notes/7d3hv9b0hklsmmog8ng98ql" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">OSHW User</span></div>
+<a href="/oshw-pm-user-stories/notes/fxz8p3n6c85t1vv7zdzzh35" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-7"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-7"></a>notes</h2>
+<ul>
+<li>user who builds OSHW projects for their own use</li>
+</ul>
+</div></div><p></p>
+<p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">OSHW Developer</span></div>
+<a href="/oshw-pm-user-stories/notes/1xociqysd5w7rdc48axj3av" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="notes-8"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes-8"></a>notes</h2>
+<ul>
+<li>user who develops/maintains OSHW project(s)</li>
+</ul>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>
+<h2 id="use-cases"><a aria-hidden="true" class="anchor-heading icon-link" href="#use-cases"></a>Use Cases</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Use Cases List</span></div>
+<a href="/oshw-pm-user-stories/notes/0mp73mxrsqppact7oc0rluz" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>List of actions to be performed by a user</p>
+</div></div><p></p><p></p>
+<h2 id="rationales"><a aria-hidden="true" class="anchor-heading icon-link" href="#rationales"></a>Rationales</h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Rationales List</span></div>
+<a href="/oshw-pm-user-stories/notes/rfvhnvj05t1ik89sdevynbt" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>List of objectives/reasons</p>
+</div></div><p></p><p></p>
+</div></div><p></p><p></p>

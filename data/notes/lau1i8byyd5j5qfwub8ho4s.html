@@ -1,0 +1,20 @@
+<h1 id="crud-references-to-elements-from-an-element"><a aria-hidden="true" class="anchor-heading icon-link" href="#crud-references-to-elements-from-an-element"></a>CRUD References to Elements from an Element</h1>
+<h2 id="notes"><a aria-hidden="true" class="anchor-heading icon-link" href="#notes"></a>notes</h2>
+<ul>
+<li>references should only be able to reference elements within the scope of the element that owns the reference (i.e., elements are unaware of parent or sibling elements; relationships between siblings are defined in a parent element)</li>
+<li>views reference elements
+<ul>
+<li>views are always siblings to elements</li>
+<li>therefore, a view must be provided element(s) as input</li>
+<li>elements that views are provided as input are provided via an interface into said view</li>
+</ul>
+</li>
+<li>references are a 1-to-1 or 1-to-many relationship</li>
+<li>e.g., I might want to import my Universal Controller into another project but be able to mention that you need to plug something into a particular port on the Raspberry Pi. Would like there to be a way to reference it like parts.universal-controller.parts.raspberry-pi.description (in legacy DOF)</li>
+<li>references may be implemented as a qualified names (i.e., relative file path names or fully qualified domain names)</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/oshw-pm-user-stories/notes/xmqcqj7zcvk8ao99yfkaf54">Developer Reference Elements from an Element</a></li>
+</ul>

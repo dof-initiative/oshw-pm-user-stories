@@ -1,0 +1,898 @@
+{
+  "roots": [
+    {
+      "key": "grm72euar5jvm3g7039hzc9",
+      "title": "OSHW Project Management User Stories",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "xox7exjnhcxnab73bxyrblt",
+          "title": "0. Workshop",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        },
+        {
+          "key": "py9pnyni5n8iwwbgqmfsad1",
+          "title": "1. Audience Survey",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "vatakntmpixw8trhk0j7d18",
+              "title": "Q1. How many people here have released a OSHW project? (x1/y)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "gw1yukq3xe1gbwxk6hvoz36",
+              "title": "Q2. How many of you have certified any of those projects? (x2/x1)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "hmsq2kbj4iv67nkjubl4ll1",
+              "title": "Q3. Have any of you certified multiple projects? (x3/x2)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "ofgqlh3kps5au9p5ltkszo5",
+              "title": "Q4. How many of you have re-certified updated releases of certified projects? (x4/x2)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "yasz8z5tj5sx7msifvx0g3v",
+              "title": "Q5. Has anyone tried modifying or building on top of existing projects? (x5/y)",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "x9z2rffos85uyh5a7c1xmh2",
+          "title": "2. There Must Be a Better Way",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "gxt00gigj1vgfc9gayv9q1o",
+              "title": "1. Core Capabilities",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "92tw5jajjs2i1njapbn6sr2",
+                  "title": "0. Unidentified",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "wnfhk1lyrz6r56si1p87dy3",
+                  "title": "1. OSHW Definition",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "unj23tn51l1huf1t5dl1akx",
+                  "title": "2. OSHW Certification",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "m82kets1w41kkt4tn1xkkne",
+                  "title": "3. OSHW Should Be like OSS",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "mpi2r94umzmv4nh73f5vrrj",
+                  "title": "4. OSHW Development Should Leverage Modern Software Development Techniques",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "6k53zfadywhww1r26lbeykt",
+              "title": "2. Pillars",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "6sd4i7px8r6jw9dh71v3558",
+                  "title": "1. BOM Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "82gydxsntjujxngqxqi6oj4",
+                  "title": "2. Instructions",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "coywdnas48vrbabx52jz7b3",
+                  "title": "3. Supporting Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "8655o7b563qlvdmr8bh7reg",
+          "title": "3. Developing User Stories",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "rfvhnvj05t1ik89sdevynbt",
+              "title": "Rationales List",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "hjyjk8901dv9vd4asha9pha",
+                  "title": "Conform to DRY Principle",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "di2bw8vuxhe07whffww3q9b",
+                      "title": "Build upon Previous Engineering Effort",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "a2r6p3tcgas7kxeh84alona",
+                      "title": "Define an Element of a Project Only Once",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "khfxtqov28cwoovn3gpqzge",
+                      "title": "Identify Reusable Elements of a Project",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "d23jvu0gxgygvb3jqk973ih",
+                  "title": "Customize the Forked OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "y5b6vak34r72tdvza8c10t5",
+                  "title": "Discover Project Errors Early",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "0358acrsau9so23yx3tcxh5",
+                  "title": "Easily Certify Every Release",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "4fpu524yhgttpna4os08xya",
+                  "title": "Establish Relationships among Elements",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "4tljln5wbz7d3afinj5uli0",
+                  "title": "Provide Context or Explanation about Model Content",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "lfrzosvbb1h6l1rhz3t7axj",
+                      "title": "Attribute Credit to External Resources",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "6xub75t20oszokbabgstx4l",
+                      "title": "Capture the Reasoning behind a Decision",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "tiqiybzabx0ciqfs7l5vmap",
+                      "title": "Describe the Element Visually",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "y65vf2pa8qfenz9w22ylf3t",
+                      "title": "Explain or Discuss Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "b17e64llybut5t4loncuwr9",
+                      "title": "Use Supporting Material",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "idtrtdfnouzj2xnmpxf8k7a",
+                  "title": "Reproduce the OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "wspi0yoorg1gk2r92jagk2o",
+                      "title": "Address Issues with Component Availability",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "00d12puqu4q7099j96r6rwu",
+                  "title": "Review Changes between Commits",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "nt817b4645z06n0do35n8c9",
+                      "title": "Provide Context for Reviewing Changes between Commits",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "1lfogwl3hcm1wstot11tql5",
+                  "title": "Unambiguously  Identify Every Instance of a Component in a Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "0mp73mxrsqppact7oc0rluz",
+              "title": "Use Cases List",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "lc4n0zp1zzhzk71ifgqbae9",
+                  "title": "Annotate an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "ttz8ygvtvthou6jodc4e1xz",
+                      "title": "Associate a Figure with Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "nnionh80b19cqaejdcfdp22",
+                      "title": "Associate an Asset with Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "59hlugx3pxnfrzeys8sjcto",
+                      "title": "Attach a Citation to Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "kkw2xrs302rhx3awjpz9bbb",
+                      "title": "Comment on Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "ir6j8wffe1y46an46s9nb5p",
+                      "title": "Create Agile Decision Record about Elements",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "z3esa6d0s7y1ksnl2pr0uzv",
+                  "title": "Automate Certification",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "0ip40ulgkzaq74x6gu4o1lv",
+                  "title": "Build an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "0gcz7iqjpbc2xnuy2j6l2tw",
+                      "title": "Build an OSHW Project with Alternative Components",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "lau1i8byyd5j5qfwub8ho4s",
+                  "title": "CRUD References to Elements from an Element",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "b6npio4y1rfh31s2k7fenjw",
+                  "title": "Diff a Project between Commits",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "qw7htjeh8mah52copd8kidl",
+                      "title": "Structural Diff a Project between Commits",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "6guks59bqne12hcb5yga8op",
+                  "title": "Fork an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "1kvgwkmiz5a5io62r6ledhy",
+                  "title": "Organize OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "4vvnlfkzaziuxaixn3hzqz3",
+                      "title": "Ensure Unique Project Element Names",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "koi9e7ohwm3thv2ok8obplv",
+                  "title": "Organize Oshw Projects",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "aedk9sv80dvcrjnqyhz1owp",
+                      "title": "Decompose OSHW Project into Subprojects",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "lrr1qfd6wcco8q8e3oue4km",
+                      "title": "Reuse Elements of External OSHW Projects",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "4syyoeef0x2dl42o6cxwfig",
+                      "title": "Reuse Elements of This OSHW Project",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "t2f4ae0ngobwioe7il1usqx",
+                      "title": "Verify Project Data",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "dvx35bxeck5zhnbvh5o4xq3",
+              "title": "User Stories List",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "nq4itotmatnypvdydynku77",
+                  "title": "Developer Associate a Figure with Elements",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "d55bzqymummgghl4a981pks",
+                  "title": "Developer Associate an Asset with Elements",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "scbv6kkbdvqn4jrqc40rldc",
+                  "title": "Developer Attach a Citation",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "htrh9qkz97dr05c8lq6ioi7",
+                  "title": "Developer Automate Certification",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "bdlqteih3cytl4ahfyl48og",
+                  "title": "Developer Decompose Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "xh3naojx4cy08p3n4updae0",
+                  "title": "Developer Diff Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "7ctuobfwqys97iap4qkjwqf",
+                  "title": "Developer Ensure Unique Project Element Names",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "gcx7j3slce2kb38rqjy05xs",
+                  "title": "Developer Organize Projects",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "xmqcqj7zcvk8ao99yfkaf54",
+                  "title": "Developer Reference Elements from an Element",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "gsrjh2z5wb4nysbflzwn0ts",
+                  "title": "Developer Reuse Elements of External Projects",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "75ssft5a3d4zge2al7kydic",
+                  "title": "Developer Reuse Elements of This Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "n56oaa1fjhwpqhq3ubbqzh0",
+                  "title": "Developer Structural Diff Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "es09vdqiihq9d8qotfulcsu",
+                  "title": "Developer Verify Project Data",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "0x5d7zm8qrx6l3f40n6kpmo",
+                  "title": "User Annotate an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "oc31cidp5sb697ncgcwtzrx",
+                  "title": "User Build an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "8l5svcc7817y3nct1ky39c3",
+                  "title": "User Build an OSHW Project with Alternative Components",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "jqbs9y2bueo3kb3dwq1khrf",
+                  "title": "User Comment on Elements",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "141metfuhmclqawqxqrpgt1",
+                  "title": "User Create Agile Decision Record",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "9fgrfzpuolrfuzovbk18w25",
+                  "title": "User Fork an OSHW Project",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "7d3hv9b0hklsmmog8ng98ql",
+              "title": "Users List",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "fxz8p3n6c85t1vv7zdzzh35",
+                  "title": "OSHW User",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "1xociqysd5w7rdc48axj3av",
+                      "title": "OSHW Developer",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "u4pvwq8xtlj4awlt51jjzow",
+          "title": "Templates",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "nh9rxz3m5c7kjdisltwk9xn",
+              "title": "Default",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "vnicpusapaldjc73aqtivy0",
+              "title": "User Story",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "grm72euar5jvm3g7039hzc9": null,
+    "u4pvwq8xtlj4awlt51jjzow": "grm72euar5jvm3g7039hzc9",
+    "vnicpusapaldjc73aqtivy0": "u4pvwq8xtlj4awlt51jjzow",
+    "nh9rxz3m5c7kjdisltwk9xn": "u4pvwq8xtlj4awlt51jjzow",
+    "8655o7b563qlvdmr8bh7reg": "grm72euar5jvm3g7039hzc9",
+    "7d3hv9b0hklsmmog8ng98ql": "8655o7b563qlvdmr8bh7reg",
+    "fxz8p3n6c85t1vv7zdzzh35": "7d3hv9b0hklsmmog8ng98ql",
+    "1xociqysd5w7rdc48axj3av": "fxz8p3n6c85t1vv7zdzzh35",
+    "dvx35bxeck5zhnbvh5o4xq3": "8655o7b563qlvdmr8bh7reg",
+    "9fgrfzpuolrfuzovbk18w25": "dvx35bxeck5zhnbvh5o4xq3",
+    "141metfuhmclqawqxqrpgt1": "dvx35bxeck5zhnbvh5o4xq3",
+    "jqbs9y2bueo3kb3dwq1khrf": "dvx35bxeck5zhnbvh5o4xq3",
+    "oc31cidp5sb697ncgcwtzrx": "dvx35bxeck5zhnbvh5o4xq3",
+    "8l5svcc7817y3nct1ky39c3": "dvx35bxeck5zhnbvh5o4xq3",
+    "0x5d7zm8qrx6l3f40n6kpmo": "dvx35bxeck5zhnbvh5o4xq3",
+    "es09vdqiihq9d8qotfulcsu": "dvx35bxeck5zhnbvh5o4xq3",
+    "n56oaa1fjhwpqhq3ubbqzh0": "dvx35bxeck5zhnbvh5o4xq3",
+    "75ssft5a3d4zge2al7kydic": "dvx35bxeck5zhnbvh5o4xq3",
+    "gsrjh2z5wb4nysbflzwn0ts": "dvx35bxeck5zhnbvh5o4xq3",
+    "xmqcqj7zcvk8ao99yfkaf54": "dvx35bxeck5zhnbvh5o4xq3",
+    "gcx7j3slce2kb38rqjy05xs": "dvx35bxeck5zhnbvh5o4xq3",
+    "7ctuobfwqys97iap4qkjwqf": "dvx35bxeck5zhnbvh5o4xq3",
+    "xh3naojx4cy08p3n4updae0": "dvx35bxeck5zhnbvh5o4xq3",
+    "bdlqteih3cytl4ahfyl48og": "dvx35bxeck5zhnbvh5o4xq3",
+    "htrh9qkz97dr05c8lq6ioi7": "dvx35bxeck5zhnbvh5o4xq3",
+    "scbv6kkbdvqn4jrqc40rldc": "dvx35bxeck5zhnbvh5o4xq3",
+    "d55bzqymummgghl4a981pks": "dvx35bxeck5zhnbvh5o4xq3",
+    "nq4itotmatnypvdydynku77": "dvx35bxeck5zhnbvh5o4xq3",
+    "0mp73mxrsqppact7oc0rluz": "8655o7b563qlvdmr8bh7reg",
+    "koi9e7ohwm3thv2ok8obplv": "0mp73mxrsqppact7oc0rluz",
+    "t2f4ae0ngobwioe7il1usqx": "koi9e7ohwm3thv2ok8obplv",
+    "4syyoeef0x2dl42o6cxwfig": "koi9e7ohwm3thv2ok8obplv",
+    "lrr1qfd6wcco8q8e3oue4km": "koi9e7ohwm3thv2ok8obplv",
+    "aedk9sv80dvcrjnqyhz1owp": "koi9e7ohwm3thv2ok8obplv",
+    "1kvgwkmiz5a5io62r6ledhy": "0mp73mxrsqppact7oc0rluz",
+    "4vvnlfkzaziuxaixn3hzqz3": "1kvgwkmiz5a5io62r6ledhy",
+    "6guks59bqne12hcb5yga8op": "0mp73mxrsqppact7oc0rluz",
+    "b6npio4y1rfh31s2k7fenjw": "0mp73mxrsqppact7oc0rluz",
+    "qw7htjeh8mah52copd8kidl": "b6npio4y1rfh31s2k7fenjw",
+    "lau1i8byyd5j5qfwub8ho4s": "0mp73mxrsqppact7oc0rluz",
+    "0ip40ulgkzaq74x6gu4o1lv": "0mp73mxrsqppact7oc0rluz",
+    "0gcz7iqjpbc2xnuy2j6l2tw": "0ip40ulgkzaq74x6gu4o1lv",
+    "z3esa6d0s7y1ksnl2pr0uzv": "0mp73mxrsqppact7oc0rluz",
+    "lc4n0zp1zzhzk71ifgqbae9": "0mp73mxrsqppact7oc0rluz",
+    "ir6j8wffe1y46an46s9nb5p": "lc4n0zp1zzhzk71ifgqbae9",
+    "kkw2xrs302rhx3awjpz9bbb": "lc4n0zp1zzhzk71ifgqbae9",
+    "59hlugx3pxnfrzeys8sjcto": "lc4n0zp1zzhzk71ifgqbae9",
+    "nnionh80b19cqaejdcfdp22": "lc4n0zp1zzhzk71ifgqbae9",
+    "ttz8ygvtvthou6jodc4e1xz": "lc4n0zp1zzhzk71ifgqbae9",
+    "rfvhnvj05t1ik89sdevynbt": "8655o7b563qlvdmr8bh7reg",
+    "1lfogwl3hcm1wstot11tql5": "rfvhnvj05t1ik89sdevynbt",
+    "00d12puqu4q7099j96r6rwu": "rfvhnvj05t1ik89sdevynbt",
+    "nt817b4645z06n0do35n8c9": "00d12puqu4q7099j96r6rwu",
+    "idtrtdfnouzj2xnmpxf8k7a": "rfvhnvj05t1ik89sdevynbt",
+    "wspi0yoorg1gk2r92jagk2o": "idtrtdfnouzj2xnmpxf8k7a",
+    "4tljln5wbz7d3afinj5uli0": "rfvhnvj05t1ik89sdevynbt",
+    "b17e64llybut5t4loncuwr9": "4tljln5wbz7d3afinj5uli0",
+    "y65vf2pa8qfenz9w22ylf3t": "4tljln5wbz7d3afinj5uli0",
+    "tiqiybzabx0ciqfs7l5vmap": "4tljln5wbz7d3afinj5uli0",
+    "6xub75t20oszokbabgstx4l": "4tljln5wbz7d3afinj5uli0",
+    "lfrzosvbb1h6l1rhz3t7axj": "4tljln5wbz7d3afinj5uli0",
+    "4fpu524yhgttpna4os08xya": "rfvhnvj05t1ik89sdevynbt",
+    "0358acrsau9so23yx3tcxh5": "rfvhnvj05t1ik89sdevynbt",
+    "y5b6vak34r72tdvza8c10t5": "rfvhnvj05t1ik89sdevynbt",
+    "d23jvu0gxgygvb3jqk973ih": "rfvhnvj05t1ik89sdevynbt",
+    "hjyjk8901dv9vd4asha9pha": "rfvhnvj05t1ik89sdevynbt",
+    "khfxtqov28cwoovn3gpqzge": "hjyjk8901dv9vd4asha9pha",
+    "a2r6p3tcgas7kxeh84alona": "hjyjk8901dv9vd4asha9pha",
+    "di2bw8vuxhe07whffww3q9b": "hjyjk8901dv9vd4asha9pha",
+    "x9z2rffos85uyh5a7c1xmh2": "grm72euar5jvm3g7039hzc9",
+    "6k53zfadywhww1r26lbeykt": "x9z2rffos85uyh5a7c1xmh2",
+    "coywdnas48vrbabx52jz7b3": "6k53zfadywhww1r26lbeykt",
+    "82gydxsntjujxngqxqi6oj4": "6k53zfadywhww1r26lbeykt",
+    "6sd4i7px8r6jw9dh71v3558": "6k53zfadywhww1r26lbeykt",
+    "gxt00gigj1vgfc9gayv9q1o": "x9z2rffos85uyh5a7c1xmh2",
+    "mpi2r94umzmv4nh73f5vrrj": "gxt00gigj1vgfc9gayv9q1o",
+    "m82kets1w41kkt4tn1xkkne": "gxt00gigj1vgfc9gayv9q1o",
+    "unj23tn51l1huf1t5dl1akx": "gxt00gigj1vgfc9gayv9q1o",
+    "wnfhk1lyrz6r56si1p87dy3": "gxt00gigj1vgfc9gayv9q1o",
+    "92tw5jajjs2i1njapbn6sr2": "gxt00gigj1vgfc9gayv9q1o",
+    "py9pnyni5n8iwwbgqmfsad1": "grm72euar5jvm3g7039hzc9",
+    "yasz8z5tj5sx7msifvx0g3v": "py9pnyni5n8iwwbgqmfsad1",
+    "ofgqlh3kps5au9p5ltkszo5": "py9pnyni5n8iwwbgqmfsad1",
+    "hmsq2kbj4iv67nkjubl4ll1": "py9pnyni5n8iwwbgqmfsad1",
+    "gw1yukq3xe1gbwxk6hvoz36": "py9pnyni5n8iwwbgqmfsad1",
+    "vatakntmpixw8trhk0j7d18": "py9pnyni5n8iwwbgqmfsad1",
+    "xox7exjnhcxnab73bxyrblt": "grm72euar5jvm3g7039hzc9"
+  }
+}
