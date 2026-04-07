@@ -92,7 +92,7 @@ publishing:
         - root
     enableSiteLastModified: true
     siteRootDir: docs
-    siteUrl: https://mach30.github.io/oshw-pm-user-stories
+    siteUrl: https://dof-initiative.github.io/oshw-pm-user-stories
     enableFrontmatterTags: true
     enableHashesForFMTags: false
     enableRandomlyColoredTags: true
