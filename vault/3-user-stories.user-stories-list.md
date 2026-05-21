@@ -2,7 +2,7 @@
 id: dvx35bxeck5zhnbvh5o4xq3
 title: User Stories List
 desc: ''
-updated: 1738352876998
+updated: 1779397980565
 created: 1727819190610
 ---
 
@@ -41,3 +41,11 @@ created: 1727819190610
 ![[3-user-stories.user-stories-list.developer-associate-a-figure-with-elements]]
 
 ![[3-user-stories.user-stories-list.developer-associate-an-asset-with-elements]]
+
+![[3-user-stories.user-stories-list.developer-evaluate-level-of-completion]]
+
+![[3-user-stories.user-stories-list.user-evaluate-level-of-completion]]
+
+![[3-user-stories.user-stories-list.developer-include-project-specifications]]
+
+![[3-user-stories.user-stories-list.user-review-project-specifications]]
